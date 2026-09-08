@@ -1,6 +1,6 @@
 # Competition compliance audit
 
-This audit follows the workspace’s primary-source [competition brief](../../docs/competition-brief.md). Recheck the live official FAQ and form immediately before publishing/submitting because their requirements may change.
+This audit follows the challenge’s published [official FAQ](https://unlayer.notion.site/Build-With-Image-Editor-Challenge-FAQ-3cf0ceb4c8e180309d91cd730811ebd1?pvs=73) and [submission form](https://forms.gle/QxJSXeASJXJrW51y9). Recheck both immediately before submission because their requirements may change.
 
 | Requirement | FLOODLINE evidence | Status before publication |
 | --- | --- | --- |
