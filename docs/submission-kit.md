@@ -1,6 +1,6 @@
 # Submission kit
 
-Replace the placeholders only after the project has a public repository and deployed URL.
+The project now has a public repository and deployed URL. Recheck both immediately before form submission.
 
 ## Project name
 
@@ -18,8 +18,8 @@ The editor is the game mechanic, not a decorative step: without a saved edit the
 
 ## Links to fill
 
-- Repository: `https://github.com/<account>/floodline-last-tide`
-- Live URL: `https://<deployment>.vercel.app`
+- Repository: `https://github.com/adityasarade/floodline-last-tide`
+- Live URL: `https://floodline-last-tide.vercel.app`
 - Optional social post: none prepared
 
 ## Suggested demo script (35–45 seconds)

@@ -6,6 +6,8 @@
 
 The interaction is deliberately construction, not cosmetic customization: remove the editor and there is no game.
 
+**Play it:** [floodline-last-tide.vercel.app](https://floodline-last-tide.vercel.app) · **Source:** [github.com/adityasarade/floodline-last-tide](https://github.com/adityasarade/floodline-last-tide)
+
 ## Why this entry
 
 The challenge asks for an original GTA VI-inspired experience with React Image Editor at its core. FLOODLINE takes the freedom, danger, and bright coastal tension of an open-world city without borrowing Grand Theft Auto assets, names, characters, branding, maps, or UI.

@@ -8,8 +8,8 @@ This audit follows the workspace’s primary-source [competition brief](../../do
 | React Image Editor is core | `src/App.tsx` mounts `ImageEditor`; the only route to the simulation is saving an edit. | Ready |
 | Visitors edit/customize a visual | Player modifies the original construction sheet using editor tools. | Ready |
 | Saved edit visibly changes experience | `analyzeFlood` reads the saved export; `TideOverlay` animates the resulting barrier and flood field. | Ready |
-| Public GitHub source | Full source, docs, provenance, tests, and package config are present. | Needs public repository creation |
-| Working public deployment | Static Vite build has passed locally. | Needs deployment |
+| Public GitHub source | [Dedicated public repository](https://github.com/adityasarade/floodline-last-tide) includes source, docs, provenance, tests, and package config. | Ready |
+| Working public deployment | [Production Vercel URL](https://floodline-last-tide.vercel.app) is deployed; a real three-stroke plan reached the public 100/100, 5/5-district result. | Ready; recheck immediately before form submission |
 | Clear README | `README.md` explains premise, editor mechanics, technical model, assets, and run steps. | Ready; add final hosted screenshots/GIF before submission |
 | Original/rightful assets | Original SVG source and an asset ledger; no restricted assets. | Ready |
 | Separate form entry | `docs/submission-kit.md` contains form-ready copy. | Needs human submission |
@@ -25,7 +25,7 @@ This audit follows the workspace’s primary-source [competition brief](../../do
 ## Pre-submission human checklist
 
 1. Review the live FAQ, form, deadline, and eligibility wording.
-2. Create a purpose-built public repository from this directory; check the first commit for accidental local files or credentials.
-3. Deploy the production build and exercise the full judge path in a clean browser.
-4. Capture final desktop and mobile media from that deployed URL; place it in the README if desired.
+2. Review the public repository’s first commit for accidental local files or credentials.
+3. Exercise the full judge path on the deployed production URL in a clean browser.
+4. Optionally recapture final desktop and mobile media from that deployed URL.
 5. Use the form copy in `docs/submission-kit.md`, confirm the required declarations, and submit a separate entry.
