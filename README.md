@@ -6,6 +6,8 @@
 
 The editor is the product’s creative engine, not a decorative stop. Without the user’s saved image, there is no city takeover or downloadable result.
 
+**Play:** [afterglow-city-answers.vercel.app](https://afterglow-city-answers.vercel.app) · **Source:** [github.com/adityasarade/afterglow-city-answers](https://github.com/adityasarade/afterglow-city-answers)
+
 ## The experience
 
 1. Start with an original three-panel screen print.

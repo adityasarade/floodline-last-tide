@@ -6,8 +6,8 @@
 | React Image Editor is meaningful | Visitor creation happens in the editor; its saved `dataUrl` both drives a transparent pixel scan and supplies the actual art rendered in the city. | Ready |
 | Strong visual execution | Original screen-print base art, distinctive paper/ink direction, an animated code-drawn city, physical surface compositing, and a download card. | Ready locally |
 | A satisfying experience | Clear create → release → city response → keep loop, no account, no score gate, and real personalized artifacts. | Ready locally |
-| Responsive behavior | CSS changes from two-column to single-column at 900px and adapts the editor shell and result controls at 560px. | Needs final narrow-browser check |
-| Public source and deployment | Repository and final production deployment must be published after final verification. | Pending |
+| Responsive behavior | CSS changes from two-column to single-column at 900px and adapts the editor shell and result controls at 560px; 390 × 844 was browser-checked without horizontal overflow. | Ready |
+| Public source and deployment | [Public source](https://github.com/adityasarade/afterglow-city-answers) and [public production deployment](https://afterglow-city-answers.vercel.app) are available. | Ready |
 | Asset safety | Provenance ledger documents every runtime asset; default visual art was made specifically for this project and excludes protected material. | Ready |
 
 ## Accuracy language used in product

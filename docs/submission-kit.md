@@ -16,11 +16,16 @@ React Image Editor is the primary creation step, with Crop, Filter, Draw, Text, 
 
 I made a nightprint in AFTERGLOW, then watched my actual React Image Editor export light up a fictional coastal city. #BuiltWithImageEditor
 
+## Live links
+
+- Production: [afterglow-city-answers.vercel.app](https://afterglow-city-answers.vercel.app)
+- Source: [github.com/adityasarade/afterglow-city-answers](https://github.com/adityasarade/afterglow-city-answers)
+
 ## Submission checklist
 
-- [ ] Public production URL added here
-- [ ] Public repository URL added here
+- [x] Public production URL added above
+- [x] Public repository URL added above
 - [ ] Final desktop and mobile screenshots/GIF added
-- [ ] Production flow tested with a real editor edit and save
+- [x] Production flow tested with a real editor edit and save
 - [ ] Current challenge form/FAQ requirements rechecked
 - [ ] Entry submitted before the deadline

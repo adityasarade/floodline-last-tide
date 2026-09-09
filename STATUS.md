@@ -10,14 +10,15 @@ Last verified locally: 9 September 2026 (IST)
 - [x] React Image Editor is central: Crop, Filter, Draw, Text, Shapes, and Stickers all produce a save that drives the reveal.
 - [x] Honest saved-pixel comparison, three-zone signal reading, revision path, interactive result view, full-print download, and browser-generated city-card download.
 - [x] Automated tests for unchanged output and zone attribution; `npm test`, `npm run lint`, and `npm run build` pass.
-- [x] Browser-tested desktop path: load editor → make a real freehand mark → save → scan → release to animated city result.
+- [x] Production-tested desktop path: load editor → make a real freehand mark in each zone → save → scan → release to animated city result.
+- [x] Mobile browser checked at 390 × 844: no horizontal overflow; the single-column brief and editor shell fit the viewport.
 - [x] README, provenance, competition audit, and concise submission copy updated.
+- [x] Public repository renamed and published: `https://github.com/adityasarade/afterglow-city-answers`.
+- [x] Public production deployment created: `https://afterglow-city-answers.vercel.app`.
 
 ## Remaining before public submission
 
-- [ ] Browser-check the current build at a narrow mobile viewport and capture final desktop/mobile media.
-- [ ] Commit and publish the revised experience to a public GitHub repository under its final AFTERGLOW name.
-- [ ] Deploy the revised build to a final public Vercel URL; run the full production flow.
+- [ ] Capture polished final desktop/mobile media for the submission form or social post.
 - [ ] Recheck the live challenge FAQ/form immediately before submission, then submit the public source and production URL.
 
 ## Known risks
