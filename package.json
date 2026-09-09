@@ -1,9 +1,9 @@
 {
-  "name": "floodline-last-tide",
+  "name": "afterglow-city-answers",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "A flood-defense simulation driven by saved React Image Editor pixels.",
+  "description": "A city-scale print experience driven by saved React Image Editor pixels.",
   "engines": { "node": ">=18" },
   "scripts": {
     "dev": "vite --host 127.0.0.1",

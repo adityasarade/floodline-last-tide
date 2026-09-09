@@ -1,31 +1,19 @@
-# Competition compliance audit
+# Competition audit — AFTERGLOW
 
-This audit follows the challenge’s published [official FAQ](https://unlayer.notion.site/Build-With-Image-Editor-Challenge-FAQ-3cf0ceb4c8e180309d91cd730811ebd1?pvs=73) and [submission form](https://forms.gle/QxJSXeASJXJrW51y9). Recheck both immediately before submission because their requirements may change.
-
-| Requirement | FLOODLINE evidence | Status before publication |
+| Challenge expectation | AFTERGLOW evidence | Status |
 | --- | --- | --- |
-| Original GTA VI-inspired experience | Original fictional coastal open-world emergency in Morrow Bay; no borrowed franchise material. | Ready |
-| React Image Editor is core | `src/App.tsx` mounts `ImageEditor`; the only route to the simulation is saving an edit. | Ready |
-| Visitors edit/customize a visual | Player modifies the original construction sheet using editor tools. | Ready |
-| Saved edit visibly changes experience | `analyzeFlood` reads the saved export; `TideOverlay` animates the resulting barrier and flood field. | Ready |
-| Public GitHub source | [Dedicated public repository](https://github.com/adityasarade/floodline-last-tide) includes source, docs, provenance, tests, and package config. | Ready |
-| Working public deployment | [Production Vercel URL](https://floodline-last-tide.vercel.app) is deployed; a real three-stroke plan reached the public 100/100, 5/5-district result. | Ready; recheck immediately before form submission |
-| Clear README | `README.md` explains premise, editor mechanics, technical model, assets, and run steps. | Ready; add final hosted screenshots/GIF before submission |
-| Original/rightful assets | Original SVG source and an asset ledger; no restricted assets. | Ready |
-| Separate form entry | `docs/submission-kit.md` contains form-ready copy. | Needs human submission |
-| Repository support | Dependency is credited and visibly used. | Recheck the live FAQ for any newly prescribed action |
+| Original GTA VI-inspired experience | An original, fictional coastal night-public-art fantasy; no protected GTA characters, locations, names, graphics, screenshots, music, or copied flow. | Ready |
+| React Image Editor is meaningful | Visitor creation happens in the editor; its saved `dataUrl` both drives a transparent pixel scan and supplies the actual art rendered in the city. | Ready |
+| Strong visual execution | Original screen-print base art, distinctive paper/ink direction, an animated code-drawn city, physical surface compositing, and a download card. | Ready locally |
+| A satisfying experience | Clear create → release → city response → keep loop, no account, no score gate, and real personalized artifacts. | Ready locally |
+| Responsive behavior | CSS changes from two-column to single-column at 900px and adapts the editor shell and result controls at 560px. | Needs final narrow-browser check |
+| Public source and deployment | Repository and final production deployment must be published after final verification. | Pending |
+| Asset safety | Provenance ledger documents every runtime asset; default visual art was made specifically for this project and excludes protected material. | Ready |
 
-## Honest technical claims
+## Accuracy language used in product
 
-- The game measures visible exported pixel differences; it does not understand user intent or layers.
-- It ignores ordinary JPEG output noise so an unchanged source image is not accidentally treated as construction.
-- The tide calculation is deterministic and stylized. It is not a real flood prediction, civil-defense tool, or engineering assessment.
-- React Image Editor loads through Unlayer’s CDN; a connected browser is required for editor use. The app includes a recovery state if it cannot load.
+- “Broad visual edits give their matching block more glow.”
+- “Every projected surface is composited from your saved export.”
+- “No AI or semantic image reading is claimed.”
 
-## Pre-submission human checklist
-
-1. Review the live FAQ, form, deadline, and eligibility wording.
-2. Review the public repository’s first commit for accidental local files or credentials.
-3. Exercise the full judge path on the deployed production URL in a clean browser.
-4. Optionally recapture final desktop and mobile media from that deployed URL.
-5. Use the form copy in `docs/submission-kit.md`, confirm the required declarations, and submit a separate entry.
+That is exactly what the implementation does. It does not claim to evaluate art, infer intent, recognize people, or simulate a real city.

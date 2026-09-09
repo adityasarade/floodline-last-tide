@@ -1,50 +1,28 @@
-# FLOODLINE — Last Tide
+# AFTERGLOW — The City Answers
 
-> Draw the city a second shoreline.
+> Make a mark. Watch the city catch it.
 
-**FLOODLINE — Last Tide** is an original, fictional coastal open-world emergency experience built for Unlayer’s React Image Editor challenge. At 04:17, a western surge will breach three gates in Morrow Bay. The player opens the construction sheet in React Image Editor, saves three visible hold lines, then watches those **exact exported pixels** become barriers in a deterministic tide model.
+**AFTERGLOW** is an original, browser-native coastal print experience built for Unlayer’s React Image Editor challenge. A visitor makes a one-of-one “nightprint” in the editor, releases its actual saved export, then sees that artwork become a market canopy, a tide-house projection, and a ferry sail in a living fictional city.
 
-The interaction is deliberately construction, not cosmetic customization: remove the editor and there is no game.
+The editor is the product’s creative engine, not a decorative stop. Without the user’s saved image, there is no city takeover or downloadable result.
 
-**Play it:** [floodline-last-tide.vercel.app](https://floodline-last-tide.vercel.app) · **Source:** [github.com/adityasarade/floodline-last-tide](https://github.com/adityasarade/floodline-last-tide)
+## The experience
 
-## Why this entry
+1. Start with an original three-panel screen print.
+2. Draw, type, shape, sticker, filter, or crop in React Image Editor.
+3. Save the image; the app reads broad visible pixel changes in its three vertical zones.
+4. Release it into the city. The exact saved export is composited onto an illustrated market canopy, waterfront projection, and ferry sail. More changed surface in a zone gives its corresponding block more glow.
+5. Download the full edited nightprint and a browser-generated city takeover card.
 
-The challenge asks for an original GTA VI-inspired experience with React Image Editor at its core. FLOODLINE takes the freedom, danger, and bright coastal tension of an open-world city without borrowing Grand Theft Auto assets, names, characters, branding, maps, or UI.
+There is deliberately no claim of semantic understanding, AI image analysis, or real-world simulation. The effect is transparent: a pixel-difference scan measures broad visual change, while the saved image itself supplies the material visitors see in the city.
 
-Its loop is intentionally small and complete:
+## Why it is a competition entry
 
-1. Receive a fictional civil-defense sheet for Morrow Bay.
-2. Draw a vertical wall inside each of the three amber gate windows.
-3. Save from React Image Editor.
-4. Read the engineering scan: concrete length, structures, off-grid changes, and each gate’s status.
-5. Commit the saved construction plan and watch the tide reach—or fail to reach—five named districts.
-6. Keep the after-tide plan or copy a share-ready result.
-
-The result gives the editor a real consequence rather than placing a saved image into a static mockup.
-
-## Screenshots
-
-| Briefing | Saved-plan scan | After-tide result |
-| --- | --- | --- |
-| ![FLOODLINE desktop briefing](docs/screenshots/desktop-brief.jpg) | ![A valid FLOODLINE plan scan](docs/screenshots/desktop-scan.jpg) | ![FLOODLINE 100 point after-tide result](docs/screenshots/desktop-result.jpg) |
-
-The mobile briefing is also captured in [`docs/screenshots/mobile-brief.jpg`](docs/screenshots/mobile-brief.jpg). The editor offers a rotate-for-precision prompt on narrow portrait screens.
-
-## React Image Editor is the game mechanic
-
-`@unlayer/react-image-editor` is embedded in the primary journey. The project provides a same-origin original map and exposes Draw, Text, Shapes, and Stickers. Players can use any of those tools, but only visible saved changes become material in the model.
-
-On save, the app:
-
-- checks the editor’s `hasChanges()` result;
-- loads the returned `dataUrl` together with the original map;
-- compares the two pixel frames, ignoring normal JPEG edge noise from the editor export;
-- reduces meaningful changed pixels to a 10 × 10px construction grid;
-- floods a deterministic fictional city grid around those barriers; and
-- renders the saved export underneath the animated tide result.
-
-It does not infer intent, draw order, real-world engineering quality, or real flood risk. This is a transparent, stylized game model.
+- It begins with personal authorship, not a score screen: visitors make something they want to keep.
+- The result is a city-scale payoff rather than a static mockup. One artwork appears as several different physical materials inside one animated scene.
+- React Image Editor is necessary to make, revise, and save the artwork that powers the reveal.
+- The visual world is original: fictional locations, original copy, a code-drawn city renderer, and an original base print.
+- It is responsive, requires no account or API key, and runs entirely in the browser after the editor loads.
 
 ## Run locally
 
@@ -53,7 +31,7 @@ npm install
 npm run dev
 ```
 
-Then open the local URL Vite prints. A recent Node.js 18+ runtime is required.
+Then open the local URL Vite prints.
 
 ```bash
 npm test
@@ -64,27 +42,18 @@ npm run build
 ## Project structure
 
 ```text
-src/App.tsx       Experience flow, editor integration, result UI, tide overlay
-src/sim.ts        Pixel comparison, construction validation, deterministic flood model
-src/sim.test.ts   Behaviour tests for unchanged, partial, winning, and invalid plans
-public/map/       Original source map (SVG) and canonical runtime PNG
-docs/             Provenance, competition audit, concept decision, submission copy
+src/App.tsx              Experience flow, editor integration, and canvas city renderer
+src/afterglow.ts         Transparent saved-pixel zone analysis
+src/afterglow.test.ts    Tests for no-op and zone attribution behaviour
+public/nightprint/       Original runtime base print
+docs/                    Provenance, competition audit, and submission copy
 ```
 
-## Originality and assets
+## Asset and IP safety
 
-Everything visible in the product world is original for this project: Morrow Bay, the civil-defense fiction, the map drawing, interface treatment, copy, flood simulation, and CSS illustration. The starter sheet was authored as [`public/map/floodline-sheet.svg`](public/map/floodline-sheet.svg) and rasterized locally to the PNG the editor receives. There are no Rockstar, Take-Two, GTA VI, leaked, competitor, stock-photo, or generative-image assets in the runtime bundle.
+The runtime base print is an original asset generated for this project with OpenAI Image Generation, using a prompt that explicitly excluded text, logos, franchise characters, locations, and GTA/Vice City references. The city renderer, UI, fiction, and all copy were authored in this repository. No Rockstar, Take-Two, GTA VI, leaked, stock, or competitor assets are used.
 
-The app loads the editor’s embed from Unlayer’s CDN as designed by the package. Google Fonts are an optional visual enhancement; local system fallbacks remain available. Details are in [the asset provenance ledger](docs/asset-provenance.md).
-
-## Competition notes
-
-- This is a new, standalone project; it does not modify `saltline-dispatch` or any other entry in the workspace.
-- No external APIs, accounts, tracking, auth, paid features, AI Assistant, or secrets are required.
-- The README shows the complete experience and the public source will visibly show the editor integration.
-- Before publishing, recheck the official challenge FAQ/form for deadline and eligibility changes, make the repository public, deploy it, and submit its own form entry.
-
-See [competition audit](docs/competition-audit.md), [submission kit](docs/submission-kit.md), and [STATUS.md](STATUS.md) for the exact readiness state.
+AFTERGLOW takes only a broad, non-protected genre cue from a contemporary coastal open-world fantasy: warm spectacle, water, nightlife, and a social city. It does not reproduce protected names, characters, storylines, maps, logos, vehicles, UI, music, or screenshots. See [asset provenance](docs/asset-provenance.md) and [competition audit](docs/competition-audit.md).
 
 ## License
 

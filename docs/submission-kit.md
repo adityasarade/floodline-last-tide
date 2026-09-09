@@ -1,36 +1,26 @@
-# Submission kit
+# AFTERGLOW — submission kit
 
-The project now has a public repository and deployed URL. Recheck both immediately before form submission.
+## One-line description
 
-## Project name
+Make a nightprint in React Image Editor, then watch your exact saved artwork light up a fictional coastal city.
 
-FLOODLINE — Last Tide
+## Form-ready description
 
-## One-line hook
+AFTERGLOW is an original city-scale print experience. The visitor starts with an original three-panel screen print, makes it their own with Unlayer’s React Image Editor, and saves it. The app compares that saved export with the original to measure broad visible changes in three zones. Then the user’s exact export is physically composited into an animated fictional coast: as a market canopy, a waterfront projection, and a ferry sail. More visual change in a zone creates more glow in that block. The payoff is personal rather than a score: visitors can download both their edited art and a browser-generated city takeover card.
 
-Draw a second shoreline, save it in React Image Editor, and watch the exact exported pixels decide which parts of a fictional coastal city survive the surge.
+## Editor integration note
 
-## Form description
+React Image Editor is the primary creation step, with Crop, Filter, Draw, Text, Shapes, and Stickers enabled. Its returned `dataUrl` is analyzed and used directly in the reveal. Removing the editor removes the user-authored asset, the zone response, and the shareable output.
 
-FLOODLINE — Last Tide is an original fictional coastal open-world emergency experience. At 04:17, a surge will break through three gates in Morrow Bay. The player opens an original civil-defense sheet in Unlayer’s React Image Editor and draws three hold lines. When they save, the app compares the actual exported pixels with the original local map, converts meaningful changes into a barrier grid, scans the plan for material and structure limits, and runs a deterministic animated tide simulation across five named districts.
+## Suggested caption
 
-The editor is the game mechanic, not a decorative step: without a saved edit there is no construction plan, scan, or result. The visual world, map, copy, and simulation are original; no GTA, Rockstar, leaked, competitor, or copied assets are used. The project is inspired by the tension and player freedom of a fictional coastal open-world city, without recreating a franchise.
+I made a nightprint in AFTERGLOW, then watched my actual React Image Editor export light up a fictional coastal city. #BuiltWithImageEditor
 
-## Links to fill
+## Submission checklist
 
-- Repository: `https://github.com/adityasarade/floodline-last-tide`
-- Live URL: `https://floodline-last-tide.vercel.app`
-- Optional social post: none prepared
-
-## Suggested demo script (35–45 seconds)
-
-1. Show the briefing and the three amber gates.
-2. Open the construction sheet in React Image Editor.
-3. Draw three quick vertical hold lines and save.
-4. Pause on “Plan reads” so the scan numbers and three green gate checks are visible.
-5. Commit at 04:17.
-6. Let the animated tide reach peak, then hold on “SECOND SHORELINE,” 5/5 districts dry, and the 100/100 score.
-
-## Suggested optional social copy
-
-I built FLOODLINE — Last Tide with Unlayer’s React Image Editor: every saved hold line becomes an actual barrier in a tide simulation. Draw the city a second shoreline. #BuiltWithImageEditor
+- [ ] Public production URL added here
+- [ ] Public repository URL added here
+- [ ] Final desktop and mobile screenshots/GIF added
+- [ ] Production flow tested with a real editor edit and save
+- [ ] Current challenge form/FAQ requirements rechecked
+- [ ] Entry submitted before the deadline

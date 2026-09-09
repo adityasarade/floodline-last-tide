@@ -1,23 +1,20 @@
-# Concept decision — why FLOODLINE
+# Concept decision — AFTERGLOW
 
-## Competitive bar observed
+## The choice
 
-The recorded competitor reference, **Vice Forge**, is a strong identity-forging flow: choose a face, edit it in React Image Editor, then reveal the saved result on a phone lock screen, billboard, and wanted poster. Its strengths are clear role-play, polished step progression, broad editor tools, and a multi-surface reveal.
+Build a creative transformation experience instead of another score-first image game: **make a nightprint, then watch the fictional city physically adopt it.**
 
-FLOODLINE deliberately does not imitate its setting, art direction, steps, or mockups. It aims to beat the same judging bar with a different answer to the editor-integration question: the saved file is not merely displayed; its actual pixels determine what happens next.
+The relevant user delight is not a narrative verdict. It is seeing a personal visual choice become a public object, in motion, at scale—and leaving with a useful artifact. The reference bar established by identity-forging experiences is the emotional pleasure of “my thing now exists in the city.” AFTERGLOW reaches for that feeling without reusing the face-picker, phone, billboard, wanted-poster, or static-mockup structure.
 
-## Independent creative review applied
+## Design rules
 
-An independent Sol creative review pressure-tested the early “draw three lines and watch water spread” idea. It identified the danger of a 20-second toy and recommended a constrained engineering fantasy with a material budget, maximum structures, named districts, visible validation, a revision loop, deterministic flooding, and a shareable after-tide result.
+1. Make the first action obvious: create, not investigate.
+2. Make the editor consequential: the exact saved export appears in the city; broad edited-pixel surface controls each district’s glow.
+3. Make the reveal feel larger than the editor: a single animated coast contains several distinct physical uses of the work.
+4. Give users durable output: their full nightprint plus a browser-made city takeover card.
+5. Be technically honest: no claim that code understands art or detects intent.
+6. Keep it safe: entirely fictional setting and original asset pipeline.
 
-Those recommendations became the shipped core:
+## Why not a route, flood, or evidence game
 
-- Three named gate windows and five named districts make the goal legible at first glance.
-- The save is scanned before commitment, with measurable concrete, structure, and collateral feedback.
-- The player can revise instead of reaching a dead end.
-- The final state is an animated city consequence plus a compact result card, not a generic download screen.
-- The experience calls editing **construction**, never generic customization.
-
-## Why this remains feasible
-
-The surface is intentionally one polished assignment. The model is a small deterministic grid with no server, account, paid service, auth, API key, generated asset pipeline, or probability claim. This keeps the core consequence reliable enough to test and explain in the README.
+Those approaches make the editor mechanically necessary, but usually end in a metric or report. AFTERGLOW keeps that mechanical integrity while making the result collectible, visual, and easy to share. The competition sees both sides: actual image-driven implementation and a human reason to make another version.

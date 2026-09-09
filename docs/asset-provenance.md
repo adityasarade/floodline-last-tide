@@ -1,17 +1,14 @@
-# Asset provenance — FLOODLINE — Last Tide
+# Asset provenance — AFTERGLOW
 
-| Asset or dependency | Location / source | Rights and use | Notes |
+| Asset or component | Location | Source | Notes |
 | --- | --- | --- | --- |
-| Morrow Bay construction sheet | `public/map/floodline-sheet.svg` | Original code-native SVG authored for this entry | Fictional map, labels, buildings, gates, districts, and decorative patterns. No third-party imagery. |
-| Runtime construction sheet | `public/map/floodline-sheet.png` | Derived locally from the original SVG with macOS `sips` | Canonical 1600 × 1000 image fed to the editor and pixel model. |
-| Product interface, tide overlay, map effects | `src/App.tsx`, `src/styles.css`, `src/sim.ts` | Original implementation for this entry | CSS, React markup, Canvas drawing, and deterministic algorithm. |
-| Product copy and names | Source files and docs | Original fictional writing | Morrow Bay, Floodline, the district names, and all narrative language are invented. |
-| React Image Editor | npm package `@unlayer/react-image-editor` | Installed dependency, MIT licensed | Used through its documented API; package/browser embed code is not copied into this repository. |
-| React, React DOM, Vite, TypeScript, Vitest, ESLint | `package.json` | Open-source dependencies under their respective licenses | Standard development/runtime dependencies. |
-| Archivo Black, DM Mono, Manrope | Google Fonts CSS import with system fallbacks | Served by Google Fonts under their published font licenses | Optional enhancement only; no font binary is committed. |
+| Base nightprint | `public/nightprint/afterglow-base.png` | Generated with OpenAI Image Generation for this project on 9 September 2026 | Original three-panel screen-print prompt. Explicit exclusions: text, logos, franchise characters, locations, GTA/Vice City references, and watermarks. Used as the editable starter artwork. |
+| Coastal city reveal | `src/App.tsx` / `CityCanvas` | Original code-drawn Canvas illustration | Sky, buildings, water, lanterns, silhouettes, projection surfaces, and animation are rendered locally. The player’s saved image is drawn into its physical surfaces. |
+| Interface, labels, and fiction | `src/`, `README.md`, and docs | Original writing and UI implementation | AFTERGLOW, The Last Light Festival, Sable Market, Tide House, and Quiet Quay are fictional original names. |
+| User-edited export | Browser memory and user download | Created by each visitor in React Image Editor | The app does not upload or persist it. Visitors must have rights to anything they choose to add. |
+| React Image Editor | npm dependency | `@unlayer/react-image-editor` | Used under its dependency license; its editor resources load from Unlayer’s delivery infrastructure. |
+| Fonts | Google Fonts import with system fallback | Archivo Black, DM Mono, Manrope | Optional typography enhancement only. |
 
-## Explicit exclusions
+## Deliberate exclusions
 
-This project does **not** contain Rockstar Games, Take-Two, GTA VI, Vice City, Grand Theft Auto, leaked material, trademark logos, screenshots, characters, vehicles, maps, audio, copied competitor assets, stock photos, or generated-image assets. It uses no user uploads and no external asset API.
-
-The challenge’s GTA VI-inspired framing is met through an original fictional coastal open-world setting and player fantasy, not borrowed IP or a trailer recreation.
+No Rockstar Games, Take-Two, Grand Theft Auto, GTA VI, leaked, stock-photo, competitor, trademark, logo, character, map, vehicle, screenshot, music, or other protected game assets are bundled or referenced. The broad coastal-nightlife genre cue is transformed into an original public-art festival, not an imitation of any franchise setting.
